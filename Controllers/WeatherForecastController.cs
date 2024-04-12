@@ -47,5 +47,11 @@ namespace JenkinsDemo.Controllers
 		{
 			return "Hello";
 		}
+
+		[HttpGet("getstring4")]
+		public string Getstring4()
+		{
+			return "Hello world";
+		}
 	}
 }
